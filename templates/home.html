@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> BANK NOTE AUTENTICATION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> variance :  <input type="text", name='variance', placeholder="enter 1"> <br><br>
+            skewness :  <input type="text", name='skewness', placeholder="enter 2"> <br><br>
+            curtosis :  <input type="text", name='curtosis', placeholder="enter 3"> <br><br>
+            entropy : <input type="text", name='entropy', placeholder="enter 4"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\data-original.jpg' alt="note">
+        
+    </center>
+
+    </body>
+</html>
